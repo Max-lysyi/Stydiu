@@ -1,0 +1,235 @@
+header {
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.header_block {
+
+width: 500px;
+display: inherit;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.menu_link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+width: 300px;
+
+}
+
+.main_paight {
+
+background-color: #2F303A;
+
+}
+.slogan {
+    padding: 200px 0px 200px 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+.button {
+    
+    margin:  0px 0px 100px 800px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: aliceblue;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    
+}
+.fs {
+
+display: flex;
+
+
+}
+.facts {
+
+    padding: 52px 0 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    
+}
+.facts_title {
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+}
+
+.facts_descr {
+    margin:  0px 50px 100px 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: darkgrey;
+    width: 280px;
+
+}
+
+
+.What_do_we_do_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+
+
+}
+
+.What_do_we_do_img {
+
+display: flex;
+justify-content: space-around;
+    margin: 50px 0px 0px 0px;
+   
+    
+}
+
+
+.What_do_we_do_img_2 {
+
+margin-right: 80px;
+margin-left: 80px;
+
+}
+
+.Our_team_title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    margin:150px 0px 150px 0px;
+    height: 42px;
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}
+
+.Our_team {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.Our_team_compartment:hover {
+    transform: scale(1.1);
+    transition: 0.5s all;
+}
+
+.Our_team_title_imges {
+
+width: 300px;
+
+
+}
+.Our_team_titles {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    
+}
+.Our_team_p {
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    text-align: center;
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+    
+
+}
+
+.Our_team_compartment {
+    background: #FFFFFF;
+margin-bottom: 100px;
+
+}
+.Our_team_background {
+    background: #F5F4FA;
+
+
+}
+.end_background {
+    background: #2F303A;
+
+}
+.blue {
+color: #2196F3;
+
+}
+.white {
+color: #FFFFFF;
+margin: 0px 100px 20px;
+}
+.and_p {
+color: #FFFFFF;
+margin: 0px 100px 20px;
+}
+.and_a {
+    color: #757575;
+    margin: 0px 100px 20px;
+    }
