@@ -61,19 +61,25 @@ color: #FFFFFF;
     top: 430px;
     
 }
+.button:hover {
+transform: scale(1.1);
+transition: 0.5 all;
+
+}
 .fs {
 
 display: flex;
-
+justify-content: space-between;
+align-items: center;
 
 }
 .facts {
 
-    padding: 52px 0 72px 0;
+    padding: 52px 10px 72px 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 30%;
+    
+    width: 270px;
     
 }
 .facts_title {
@@ -89,7 +95,7 @@ display: flex;
 }
 
 .facts_descr {
-    margin:  0px 50px 100px 100px;
+   
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -162,6 +168,7 @@ color: #212121;
 .Our_team_compartment:hover {
     transform: scale(1.1);
     transition: 0.5s all;
+
 }
 
 .Our_team_title_imges {
