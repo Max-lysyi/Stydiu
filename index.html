@@ -6,14 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
-  <link rel="stylesheet" href="./css/style.css" />
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap"
     rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/style.css" />
 
-  
+
 </head>
 
 <body>
@@ -22,13 +24,13 @@
       <div class="header_block">
         <div class="heder_right">
           <a href="/">
-            <h2 class="logo"><span>Web</span>Studio</h2>
+            <h2 class="logo"><span class="logo_1">Web</span>Studio</h2>
           </a>
           <nav>
             <ul class="menu_link">
-              <li><a href="#">Студія</a></li>
-              <li><a href="#">Портфоліо</a></li>
-              <li><a href="#">Контакти</a></li>
+              <li><a class="menu_link_1" href="#">Студія</a></li>
+              <li><a class="menu_link_2" href=".//Portfolio.html">Портфоліо</a></li>
+              <li><a class="menu_link_3" href="#">Контакти</a></li>
             </ul>
           </nav>
         </div>
@@ -41,13 +43,17 @@
   </header>
   <main>
     <section class="main_paight">
+
       <h1 class="slogan">Ефективні рішення для <br> вашого бізнесу</h1>
       <div class="button_1">
-      <button class="button">Замовити послугу</button>
-    </div>
+        <button class="button" id="open-form-modal-btn">Замовити послугу</button>
+      </div>
     </section>
-    <section class="fs">
+    <section class="fs animate__bounceIn">
       <div class="facts">
+        <div class="facts_Vector">
+          <img src="./img/Vector.png" alt="">
+        </div>
         <h3 class="facts_title">УВАГА ДО ДЕТАЛЕЙ</h3>
         <p class="facts_descr">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
@@ -56,6 +62,9 @@
       </div>
 
       <div class="facts">
+        <div class="facts_Vector">
+          <img src="./img/Vector1.png" alt="">
+        </div>
         <h3 class="facts_title">Пунктуальність</h3>
         <p class="facts_descr">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
@@ -64,6 +73,9 @@
       </div>
 
       <dir class="facts">
+        <div class="facts_Vector">
+          <img src="./img/Vector2.png" alt="">
+        </div>
         <h3 class="facts_title">Планування</h3>
         <p class="facts_descr">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
@@ -72,6 +84,9 @@
       </dir>
 
       <div class="facts">
+        <div class="facts_Vector">
+          <img src="./img/Vector3.png" alt="">
+        </div>
         <h3 class="facts_title">Сучасні Технології</h3>
         <p class="facts_descr">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
@@ -84,49 +99,159 @@
         <h2>Чим ми займаємося</h2>
       </div>
       <section class="What_do_we_do_img">
-        <div class="What_do_we_do_img_">
+        <div>
+          <div class="What_do_we_do_btn">ДЕСКТОПНІ ДОДАТКИ</div>
           <img class="What_do_we_do_img_1" src="./img/img1.png" alt="" width="500px" />
+        </div>
+        <div>
+          <div class="What_do_we_do_btn">МОБІЛЬНІ ДОДАТКИ</div>
           <img class="What_do_we_do_img_2" src="./img/img.png" alt="" width="500px" />
+        </div>
+        <div>
+          <div class="What_do_we_do_btn">ДИЗАЙНЕРСЬКІ РІШЕННЯ</div>
           <img class="What_do_we_do_img_3" src="./img/img2.png" alt="" width="500px" />
         </div>
       </section>
     </div>
-    <div class="Our_team_background">
-      <div class="Our_team_title">
-        <h2>Наша команда</h2>
-      </div>
+    <section class="animate__animated animate__fadeInUp wow" data-wow-duration="2s">
+      <div class="Our_team_background">
+        <div class="Our_team_title">
+          <h2>Наша команда</h2>
+        </div>
 
-      <section class="Our_team">
-        <div class="Our_team_compartment">
-          <img class="Our_team_title_imges" src="./img/img3.jpg" alt="/" />
-          <h3 class="Our_team_titles">Ігор Дем’яненко</h3>
-          <p class="Our_team_p">Product Designer</p>
+        <section class="Our_team">
+          <div class="Our_team_compartment">
+            <img class="Our_team_title_imges" src="./img/img3.jpg" alt="/" />
+            <h3 class="Our_team_titles">Ігор Дем’яненко</h3>
+            <p class="Our_team_p">Product Designer</p>
+            <div class="social_media">
+              <img class="social_media_img" src="./Img/instagram 3.png" alt="">
+              <img class="social_media_img" src="./img/Vector22.png" alt="">
+              <img class="social_media_img" src="./img/facebook 21.png" alt="">
+              <img class="social_media_img" src="./img/linkedin 1.png" alt="">
+            </div>
+          </div>
+          <div class="Our_team_compartment">
+            <img class="Our_team_title_imges" src="./img/img4.jpg" alt="/" />
+            <h3 class="Our_team_titles">Ольга Репіна</h3>
+            <p class="Our_team_p">Frontend Developer</p>
+            <div class="social_media">
+              <img class="social_media_img" src="./Img/instagram 3.png" alt="">
+              <img class="social_media_img" src="./img/Vector22.png" alt="">
+              <img class="social_media_img" src="./img/facebook 21.png" alt="">
+              <img class="social_media_img" src="./img/linkedin 1.png" alt="">
+            </div>
+          </div>
+          <div class="Our_team_compartment">
+            <img class="Our_team_title_imges" src="./img/img5.jpg" alt="/" />
+            <h3 class="Our_team_titles">Микола Тарасов</h3>
+            <p class="Our_team_p">Marketing</p>
+            <div class="social_media">
+              <img class="social_media_img" src="./Img/instagram 3.png" alt="">
+              <img class="social_media_img" src="./img/Vector22.png" alt="">
+              <img class="social_media_img" src="./img/facebook 21.png" alt="">
+              <img class="social_media_img" src="./img/linkedin 1.png" alt="">
+            </div>
+          </div>
+          <div class="Our_team_compartment">
+            <img class="Our_team_title_imges" src="./img/img6.jpg" alt="/" />
+            <h3 class="Our_team_titles">Михайло Єрмаков</h3>
+            <p class="Our_team_p">UI Designer</p>
+            <div class="social_media">
+              <img class="social_media_img" src="./Img/instagram 3.png" alt="">
+              <img class="social_media_img" src="./img/Vector22.png" alt="">
+              <img class="social_media_img" src="./img/facebook 21.png" alt="">
+              <img class="social_media_img" src="./img/linkedin 1.png" alt="">
+            </div>
+          </div>
+      </div>
+      <section class="REGULAR_CUSTOMERS">
+        <h2 class="REGULAR_CUSTOMERS_T">ПОСТІЙНІ КЛІЄНТИ</h2>
+        <div class="CLIENTS">
+          <button class="CLIENTS_img">
+            <img src="./img/Logo1.png" alt="">
+          </button>
+          <button class="CLIENTS_img">
+            <img src="./img/Logo2.png" alt="">
+          </button>
+          <button class="CLIENTS_img">
+            <img src="./img/Logo3.png" alt="">
+          </button>
+          <button class="CLIENTS_img">
+            <img src="" alt="">
+          </button>
+          <button class="CLIENTS_img">
+            <img src="./img/Logo4.png" alt="">
+          </button>
+          <button class="CLIENTS_img">
+            <img src="./img/Logo5.png" alt="">
+          </button>
+
         </div>
-        <div class="Our_team_compartment">
-          <img class="Our_team_title_imges" src="./img/img4.jpg" alt="/" />
-          <h3 class="Our_team_titles">Ольга Репіна</h3>
-          <p class="Our_team_p">Frontend Developer</p>
+      </section>
+    </section>
+
+  </main>
+  <div class="modal-bgd" id="form-modal">
+
+    <div class="modal-form-container">
+      <button class="close-btn">x</button>
+      <form action="#" class="modal-form" data-netlify="true" id="form">
+
+        <h2 class="modal-form-title">Залиште свої дані, ми вам передзвонимо</h2>
+
+
+
+        <div class="modal-form-field">
+          <label for="user-name" class="modal-field-name">Ім’я</label>
+          <img class="Vector" src="./img/Vector100.png" alt="" width="15px">
+          <input required type="text" class="modal-field-input" id="user-name" name="Ім’я">
         </div>
-        <div class="Our_team_compartment">
-          <img class="Our_team_title_imges" src="./img/img5.jpg" alt="/" />
-          <h3 class="Our_team_titles">Микола Тарасов</h3>
-          <p class="Our_team_p">Marketing</p>
+        <div class="modal-form-field">
+          <label for="user-email" class="modal-field-name">Телефон</label>
+          <img class="Vector" src="./img/Vector99.png" alt="" width="15px">
+          <input required type="email" class="modal-field-input" id="user-email" name="Email">
         </div>
-        <div class="Our_team_compartment">
-          <img class="Our_team_title_imges" src="./img/img6.jpg" alt="/" />
-          <h3 class="Our_team_titles">Михайло Єрмаков</h3>
-          <p class="Our_team_p">UI Designer</p>
+        <div class="modal-form-field">
+          <label for="user-email" class="modal-field-name">Email</label>
+          <img class="Vector" src="./img/Vector98.png" alt="" width="15px">
+          <input required type="email" class="modal-field-input" id="user-email" name="Email">
         </div>
+        <div class="container_in">
+          <label class="container">
+            <input checked="checked" type="checkbox">
+            <div class="checkmark"></div>
+          </label>
+          <p>Погоджуюся з розсилкою та приймаю Умови договору</p>
+        </div>
+        <button class="modal-form-btn" id="launch-btn">Відправити</button>
+
+      </form>
+
     </div>
 
-    </section>
-  </main>
-  <section class="end_background">
-    <h2 class="white"><span class="blue">Web</span>Studio</h2>
-    <p class="and_p">м. Київ, пр-т Лесі Українки, 26</p>
-    <a class="and_a" href="#">info@devstudio.com</a>
-    <a class="and_a" href="tel:+0961111111">+38 096 111 11 11</a>
+  </div>
+  <footer class="footer">
+    <div class="end_background">
+      <h2 class="white"><span class="blue">Web</span>Studio</h2>
+      <p class="and_p">м. Київ, пр-т Лесі Українки, 26</p>
+      <a class="and_a" href="#">info@devstudio.com</a>
+      <a class="and_a" href="tel:+0961111111">+38 096 111 11 11</a>
+    </div>
+    <div>
+      <h3 class="JOIN">ПРИЄДНУЙТЕСЬ</h3>
+      <div class="social_media">
+        <img class="social_media_img" src="./Img/instagram 3.png" alt="">
+        <img class="social_media_img" src="./img/Vector22.png" alt="">
+        <img class="social_media_img" src="./img/facebook 21.png" alt="">
+        <img class="social_media_img" src="./img/linkedin 1.png" alt="">
+      </div>
+    </div>
+  </footer>
   </section>
+  <script src="/js/form.js"></script>
+  <script src="./js/wow.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
